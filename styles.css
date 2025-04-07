@@ -1,3 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: #212121;
+}
+
 li {
   list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #2e2f42;
+}
+.first-logo-part {
+  color: #4d5ae5;
+}
+.list-header {
+  font-weight: 500;
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link-header:hover,
+.link-header:focus {
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  color: #2196f3;
+}
+.link-contacts {
+  color: #2e2f42;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  color: #2196f3;
+}
+
+/* .hero {
+  background-color: #2f303a;
+} */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  /* color: white; */
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: white;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.tile-about {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.text-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.names-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-link > h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-link > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
