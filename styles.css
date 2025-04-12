@@ -142,6 +142,17 @@ button {
 }
 
 /* About */
+.about {
+  padding: 120px 0;
+  text-align: center;
+}
+.list-about {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  text-align: left;
+}
 
 .title-about {
   font-weight: 500;
