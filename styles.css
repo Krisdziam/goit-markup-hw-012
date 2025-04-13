@@ -288,7 +288,17 @@ h6 {
 
 /* Footer */
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
+}
+.footer-logo {
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 16px;
+  line-height: 1.17;
+}
+.footer-text-wrapper {
+  max-width: 264px;
 }
 .footer-text {
   font-weight: 400;
